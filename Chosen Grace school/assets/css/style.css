@@ -1232,7 +1232,7 @@ img {
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h4 {
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
@@ -1800,6 +1800,10 @@ img {
   }
   #mu-features .mu-features-area .mu-features-content .mu-single-feature p {
     font-size: 10px;
+  }
+  #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
+    font-size: 12px;
+    position: relative;
   }
 }
 
