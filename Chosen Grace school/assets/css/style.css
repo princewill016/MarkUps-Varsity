@@ -23,7 +23,7 @@
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
 body {
-  background-color: wheat;
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
   color: #333333;
   font-size: 16px;
@@ -77,7 +77,7 @@ img {
 }
 
 .mu-read-more-btn {
-  border: 1px solid wheat;
+  border: 1px solid #fff;
   color: #fff;
   display: inline-block;
   margin-top: 10px;
@@ -116,7 +116,7 @@ img {
  HEADER SECTION
 ====================*/
 #mu-header {
-  background-color: wheat;
+  background-color: #fff;
   border-bottom: 2px solid #e36912;
   display: inline;
   float: left;
@@ -199,7 +199,7 @@ img {
   margin-left: 4px;
 }
 #mu-menu .navbar-default {
-  background-color: wheat;
+  background-color: #fff;
   border-radius: 0;
   border-left: none;
   border-right: none;
