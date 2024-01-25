@@ -95,23 +95,6 @@ img {
   color: #fff;
 }
 
-.mu-post-btn {
-  background-color: transparent;
-  border: 1px solid #ccc;
-  display: inline-block;
-  font-size: 10px;
-  padding: 10px 18px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.mu-post-btn:hover,
-.mu-post-btn:focus {
-  color: #fff;
-}
-
 /* LAYOUTS - Page layout styles */
 /*==================
  HEADER SECTION
@@ -216,19 +199,6 @@ img {
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu {
   border-radius: 0px;
-}
-#mu-menu .navbar-default .navbar-nav li .dropdown-menu li a {
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover,
-#mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
-  color: #fff;
-}
-#mu-menu .navbar-default .navbar-nav .open a:hover,
-#mu-menu .navbar-default .navbar-nav .open a:focus {
-  color: #fff;
 }
 
 /* ALL SECTION */
@@ -454,30 +424,6 @@ img {
 }
 
 /*==== about us dynamic video player ====*/
-#about-video-popup {
-  background-color: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  text-align: center;
-  bottom: 0;
-  z-index: 99999;
-}
-#about-video-popup span {
-  color: #fff;
-  cursor: pointer;
-  float: right;
-  font-size: 30px;
-  margin-right: 50px;
-  margin-top: 50px;
-}
-#about-video-popup iframe {
-  background: url(../img/loader.gif) center center no-repeat;
-  margin: 10% auto;
-  width: 650px;
-  height: 450px;
-}
 
 .mu-title {
   display: inline;
@@ -645,27 +591,7 @@ img {
   float: left;
   width: 100%;
 }
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single:hover
-  .mu-our-teacher-img
-  .mu-our-teacher-social {
-  opacity: 1;
-}
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single:hover
-  .mu-our-teacher-img
-  .mu-our-teacher-social
-  a {
-  -moz-transform: translateY(0%);
-  -o-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -webkit-transform: translateY(0%);
-  transform: translateY(0%);
-}
+
 #mu-our-teacher
   .mu-our-teacher-area
   .mu-our-teacher-content
@@ -685,69 +611,7 @@ img {
   img {
   width: 100%;
 }
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single
-  .mu-our-teacher-img
-  .mu-our-teacher-social {
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  overflow: hidden;
-  padding-top: 43.5%;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single
-  .mu-our-teacher-img
-  .mu-our-teacher-social
-  a {
-  border: 2px solid #fff;
-  color: #fff;
-  display: inline-block;
-  font-size: 18px;
-  height: 40px;
-  line-height: 40px;
-  margin: 0 5px;
-  width: 40px;
-  -moz-transform: translateY(-1000%);
-  -o-transform: translateY(-1000%);
-  -ms-transform: translateY(-1000%);
-  -webkit-transform: translateY(-1000%);
-  transform: translateY(-1000%);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single
-  .mu-our-teacher-img
-  .mu-our-teacher-social
-  a:hover,
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single
-  .mu-our-teacher-img
-  .mu-our-teacher-social
-  a:focus {
-  background-color: #fff;
-}
+
 #mu-our-teacher
   .mu-our-teacher-area
   .mu-our-teacher-content
@@ -767,18 +631,7 @@ img {
   margin-top: 20px;
   text-transform: uppercase;
 }
-#mu-our-teacher
-  .mu-our-teacher-area
-  .mu-our-teacher-content
-  .mu-our-teacher-single
-  .mu-ourteacher-single-content
-  span {
-  color: #000;
-  display: block;
-  font-size: 14px;
-  margin-bottom: 8px;
-  margin-top: 5px;
-}
+
 #mu-our-teacher
   .mu-our-teacher-area
   .mu-our-teacher-content
@@ -1803,21 +1656,9 @@ img {
 }
 
 @media (max-width: 480px) {
-  #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
-    font-size: 5px;
-  }
-
-  #mu-header .mu-header-area .mu-header-top-left .mu-top-email i {
-    margin-right: 0;
-  }
-
-  #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a {
-    font-size: 2px;
-  }
-
   #mu-slider .mu-slider-single .mu-slider-content h2 {
     font-size: 16px;
-    line-height: 35px;
+    line-height: 50px;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content h4 {
@@ -1831,7 +1672,7 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-content {
-    padding: 0 2%;
+    padding: 4% 4%;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content {
@@ -1842,11 +1683,12 @@ img {
   #mu-slider .slick-next {
     height: 30px;
     width: 30px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
   }
 
   #mu-slider .mu-slider-single .mu-slider-img {
-    height: 270px;
+    height: 295px;
   }
 
   #mu-service .mu-service-area .mu-service-single {
@@ -1927,6 +1769,38 @@ img {
     margin-bottom: 2px;
     font-size: smaller;
   }
+  .scrollToTop {
+    border-radius: 6px;
+    bottom: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    height: 30px;
+    padding: 0px 0px;
+    right: 10px;
+    width: 30px;
+  }
+  #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
+    font-size: 30px;
+  }
+  #mu-about-us .mu-about-us-area .mu-about-us-left ul li {
+    line-height: 20px;
+  }
+  #mu-abtus-counter {
+    background-image: url("../img/counter-bg.jpg");
+    width: 100%;
+    height: 500px;
+  }
+  #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
+    font-size: 20px;
+  }
+  #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+  #mu-features .mu-features-area .mu-features-content .mu-single-feature p {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -1990,4 +1864,5 @@ img {
 }
 .mission {
   color: white;
+  margin-top: 10px;
 }
