@@ -23,9 +23,9 @@
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
 body {
-  background-color: #fff;
+  background-color: #191919;
   font-family: "Roboto", sans-serif;
-  color: #333333;
+  color: wheat;
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -77,7 +77,7 @@ img {
 }
 
 .mu-read-more-btn {
-  border: 1px solid #fff;
+  border: 1px solid rgb(250, 213, 145);
   color: #fff;
   display: inline-block;
   margin-top: 10px;
@@ -3067,3 +3067,12 @@ img {
 .fa-user-secret {
   color: red;
 } */
+
+#gray-back {
+  border-radius: 50px 150px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+#misdiv {
+  border-radius: 90px 50px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
