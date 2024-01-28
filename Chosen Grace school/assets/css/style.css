@@ -160,6 +160,7 @@ img {
   float: left;
   width: 100%;
 }
+
 #mu-menu .navbar-header .navbar-brand {
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -1097,109 +1098,6 @@ img {
   margin-top: 50px;
   width: 100%;
 }
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-left {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  .reply-title {
-  font-size: 25px;
-  margin-top: 0;
-}
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  label {
-  display: block;
-}
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  label
-  .required {
-  color: #f60;
-}
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  input[type="text"],
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  input[type="email"],
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  input[type="url"] {
-  border: none;
-  border: 1px solid #ddd;
-  color: #555;
-  margin-bottom: 10px;
-  height: 35px;
-  padding: 5px;
-  width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  textarea {
-  border: none;
-  border: 1px solid #ddd;
-  color: #555;
-  margin-bottom: 5px;
-  padding: 10px;
-  height: 150px;
-  width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-contact
-  .mu-contact-area
-  .mu-contact-content
-  .mu-contact-left
-  .contactform
-  .form-submit
-  input {
-  margin-top: 10px;
-}
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-right {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-right iframe {
-  height: 500px;
-}
 
 /*==================
  ERROR PAGE
@@ -1486,8 +1384,8 @@ img {
   }
 
   .navbar-toggle {
-    background-color: #01bafd;
-    border-radius: 0;
+    background-color: wheat;
+    border-radius: 8px;
   }
 
   .navbar-default .navbar-toggle {
@@ -1656,7 +1554,24 @@ img {
 }
 
 @media (max-width: 480px) {
-  #mu-slider .mu-slider-single .mu-slider-content h2 {
+  #mu-header .mu-header-area {
+    padding: 5px 0;
+  }
+
+  #mu-menu .navbar-header .navbar-brand {
+    font-size: 26px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    letter-spacing: 0px;
+  }
+
+  #mu-menu
+    .navbar-header
+    .navbar-brand
+    #mu-slider
+    .mu-slider-single
+    .mu-slider-content
+    h2 {
     font-size: 16px;
     line-height: 50px;
   }
