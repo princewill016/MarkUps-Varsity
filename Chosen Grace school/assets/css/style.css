@@ -74,6 +74,7 @@ h2 {
 
 img {
   border: none;
+  border-radius: 10px;
 }
 
 .mu-read-more-btn {
@@ -817,8 +818,8 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  margin-top: -150px;
 }
+
 #mu-gallery .mu-gallery-area {
   display: inline;
   float: left;
@@ -1239,6 +1240,9 @@ img {
     font-size: 15px;
     padding: 25px 10px;
   }
+  #mu-gallery {
+    margin-top: -280px;
+  }
 
   #mu-slider .mu-slider-single .mu-slider-content h2 {
     font-size: 35px;
@@ -1355,6 +1359,10 @@ img {
   }
 }
 @media (max-width: 767px) {
+  #mu-gallery {
+    margin-top: -90px;
+  }
+
   .navbar-header {
     padding: 10px 0;
   }
@@ -1498,6 +1506,9 @@ img {
   }
 }
 @media (max-width: 640px) {
+  #mu-gallery {
+    margin-top: -150px;
+  }
   #mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
     display: none;
   }
@@ -1538,6 +1549,9 @@ img {
 }
 
 @media (max-width: 480px) {
+  #mu-gallery {
+    margin-top: -150px;
+  }
   #mu-header .mu-header-area {
     padding: 5px 0;
   }
@@ -1708,6 +1722,12 @@ img {
 }
 
 @media (max-width: 360px) {
+  #mu-gallery {
+    margin-top: -100px;
+  }
+  #mu-menu .navbar-header .navbar-brand {
+    font-size: 15px;
+  }
   #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
     font-size: 30px;
     margin-bottom: 10px;
