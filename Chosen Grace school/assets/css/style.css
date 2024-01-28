@@ -1601,7 +1601,7 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-img {
-    height: 295px;
+    height: 310px;
   }
 
   #mu-service .mu-service-area .mu-service-single {
@@ -1649,7 +1649,7 @@ img {
     height: 350px;
   }
   body {
-    font-size: 1px;
+    font-size: 13px;
   }
   h2 {
     font-size: 25px;
@@ -1663,7 +1663,7 @@ img {
   }
 
   #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a {
-    font-size: xx-small;
+    font-size: 13px;
   }
   #mu-menu .navbar-header .navbar-brand {
     font-size: 17px;
@@ -1681,7 +1681,7 @@ img {
     padding-bottom: 5px;
     padding-top: 2px;
     margin-bottom: 2px;
-    font-size: smaller;
+    font-size: 13px;
   }
   .scrollToTop {
     border-radius: 6px;
